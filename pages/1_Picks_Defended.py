@@ -11,7 +11,7 @@ ensure_global_team_game_sidebar(
 )
 
 build_app(
-    title="Picks Defended",
+    title="Ball Handler on Screens Defended",
     data_path="picks_defended_test.csv",
     game_id_col="GameKey",
     game_date_col="game_date",
