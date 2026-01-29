@@ -433,9 +433,6 @@ def build_app(
         table_df = table_df.dropna(subset=["chance_id"])
         table_df = table_df[table_df["chance_id"].ne("")]
 
-
-    table_df = table_df.drop_duplicates(subset=["chance_id"])
-
     st.caption(f"Rows: **{len(table_df):,}**")
     st.caption(f"Unique chance_ids: **{table_df['chance_id'].nunique():,}**")
     st.dataframe(table_df, use_container_width=True, hide_index=True)
