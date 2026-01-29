@@ -12,7 +12,7 @@ ensure_global_team_game_sidebar(
 
 
 build_app(
-    title="Screener Defender Defended",
+    title="Screen Switch Defended",
     data_path="scr_defended_test.csv",
     game_id_col="GameKey",
     game_date_col="game_date",
